@@ -19,7 +19,7 @@ $result = $conn->query("SELECT VERSION() as version");
 $row = $result->fetch_assoc();
 
 // Output the MySQL version
-echo "MySQL version: " . $row["version"];
+echo "MySQL version of php: " . $row["version"];
 
 // Close connection
 $conn->close();
