@@ -1,0 +1,7 @@
+mysql-connector-python>=8.0.32
+sqlalchemy
+pandas
+plotly
+pymysql
+nbformat>=4.2.0
+dash
